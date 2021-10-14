@@ -4,7 +4,7 @@
   --condiv-flex:6;
   --fontsize-p:1.2rem;
   --fontsize-nav:1.6rem;
-  --typing-font:3rem;
+  --typing-font:2rem;
 }
 *
 {
@@ -29,7 +29,7 @@ nav
 }
 .condiv
 {
-  padding: 100px ;
+  padding: 80px ;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
 }
@@ -119,6 +119,21 @@ h1,h2,h3,h4,p{
 {
   list-style-type:none;
   margin:30px;
+}
+
+.icons {
+  margin: 10px;
+}
+
+.Footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: linear-gradient(90deg, rgba(132,124,252,1) 50%, rgba(238,103,143,1) 80% );
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 @media all and (max-width: 450px) {

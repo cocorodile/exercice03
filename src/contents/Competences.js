@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../components/Footer';
 
 class Competence extends Component {
     render () {
@@ -15,7 +16,7 @@ class Competence extends Component {
                 <li>Html5</li>
                 <li>Css3</li>
             </ul>
-            
+           <Footer /> 
         </div>
         )
     }

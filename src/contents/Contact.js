@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../components/Footer';
 
 class Contact extends Component {
     render() {
@@ -6,6 +7,7 @@ class Contact extends Component {
             <div className="condiv">
             <h1 className="subtopic">Contactez-moi</h1>
             <h3>Email  :   md@martindufresne.com</h3>
+            <Footer />
             </div>
             )
         }
